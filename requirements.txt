@@ -1,4 +1,7 @@
-dash==2.6.0
-pandas 
+dash
+dash-bootstrap-components
+dash-auth
+pandas
 gunicorn
-dash_bootstrap_components
+scipy
+numpy
