@@ -30,7 +30,7 @@ counties = sorted(df['county_abrev'].dropna().unique())
 # Initialize the Dash app
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-
+server = app.server
 
 # Fix: Calculate max possible total for the default range filter
 max_possible_total = round(df[year_columns].sum(axis=1).max(),2)
