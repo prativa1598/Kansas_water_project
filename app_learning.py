@@ -155,7 +155,7 @@ app.layout = dbc.Container([
                         value=[min(years), max(years)],
                         marks={y: str(y) for y in range(min(years), max(years) + 1, 5)},
                         step=1,
-                        tooltip={"always_visible": True}
+                        tooltip={"always_visible": False}
                     ),
 
                     html.Label("Select County:", className="fw-bold mt-4"),
